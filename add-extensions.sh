@@ -8,10 +8,10 @@
 
 clear
 
-echo -e "Enter the full path of your input file."
+echo "Enter the full path of your input file."
 read input
 
-echo -e "Enter the full path to the location where you want to store the log file."
+echo "Enter the full path to the location where you want to store the log file."
 read log
 
 while IFS=, read f1 f2
