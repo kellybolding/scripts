@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<policy type="and" name="Video_Access_Copy_Policy">
+  <rule name="Is it MPEG-4?" value="Format" tracktype="General" occurrence="*" operator="=">MPEG-4</rule>
+  <rule name="File extension is .mp4?" value="FileExtension" tracktype="General" occurrence="*" operator="=">mp4</rule>
+</policy>

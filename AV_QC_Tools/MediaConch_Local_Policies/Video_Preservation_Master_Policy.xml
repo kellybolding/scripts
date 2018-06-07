@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<policy type="and" name="Video_Preservation_Master_Policy">
+  <rule name="Is it Quicktime?" value="Format_Profile" tracktype="General" occurrence="*" operator="=">QuickTime</rule>
+  <rule name="Lossless compression?" value="Compression_Mode" tracktype="Video" occurrence="*" operator="=">Lossless</rule>
+  <rule name="Bit depth of 10?" value="BitDepth" tracktype="Video" occurrence="*" operator="=">10</rule>
+  <rule name="Frame rate of 29.970 fps?" value="FrameRate" tracktype="Video" occurrence="*" operator="=">29.970</rule>
+  <rule name="Audio bit depth is 24?" value="BitDepth" tracktype="Audio" occurrence="*" operator="=">24</rule>
+  <rule name="Audio is PCM?" value="Format" tracktype="Audio" occurrence="*" operator="=">PCM</rule>
+  <rule name="Audio sampling rate is 48000 Hz?" value="SamplingRate" tracktype="Audio" occurrence="*" operator="=">48000</rule>
+  <rule name="File extension is .mov?" value="FileExtension" tracktype="General" occurrence="*" operator="=">mov</rule>
+</policy>

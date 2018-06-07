@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<policy type="and" name="Audio_Preservation_Master_Policy" license="CC-BY-4.0+">
+  <rule name="Wrapper is WAV?" value="Format" tracktype="General" occurrence="*" operator="=">Wave</rule>
+  <rule name="Encoding format is PCM?" value="Format" tracktype="Audio" occurrence="*" operator="=">PCM</rule>
+  <rule name="Audio sampling rate is 96000 Hz?" value="SamplingRate" tracktype="Audio" occurrence="*" operator="=">96000</rule>
+  <rule name="Audio bit depth is 24?" value="BitDepth" tracktype="Audio" occurrence="*" operator="=">24</rule>
+  <rule name="File extension is .wav?" value="FileExtension" tracktype="General" occurrence="*" operator="=">wav</rule>
+</policy>

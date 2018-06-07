@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<policy type="and" name="Audio_Access_Copy_Policy" license="CC-BY-SA-4.0+">
+  <rule name="Wrapper is MP3 (MPEG Audio)?" value="Format" tracktype="General" occurrence="*" operator="=">MPEG Audio</rule>
+  <rule name="Bit rate is 128 kbps per channel?" value="BitRate" tracktype="Audio" occurrence="*" operator="=">128000</rule>
+  <rule name="File extension is .mp3?" value="FileExtension" tracktype="General" occurrence="*" operator="=">mp3</rule>
+</policy>
