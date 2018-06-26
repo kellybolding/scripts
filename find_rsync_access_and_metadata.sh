@@ -7,7 +7,7 @@
 
 clear
 
-echo "Enter the full path to the mounted source drive (do NOT include trailing slash)"
+echo "Enter the full path to the mounted source drive or existing copy (do NOT include trailing slash)"
 read sourcedrive
 
 echo "Enter the full path to the destination where you want to copy files (do NOT include trailing slash)"
