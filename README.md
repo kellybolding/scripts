@@ -1,5 +1,5 @@
 # scripts
 
-Repository for scripts related to digital/audiovisual archives & management of archival metadata.
+Repository for scripts related to digital/audiovisual archives & management of archival metadata, including description audit work.
 
-Use at your own risk.
+Some are works-in-progress. Use at your own risk.
